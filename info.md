@@ -1,3 +1,4 @@
+<code>
 /mybot
 ├── bot
 │   ├── __init__.py
@@ -22,3 +23,4 @@
 │       └── embeddings.pkl
 ├── Dockerfile
 └── README.md
+</code>
