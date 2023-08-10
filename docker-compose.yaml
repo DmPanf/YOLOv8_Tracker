@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  yolo-tracker:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./video:/app/video
+      - ./my_dir:/app/my_dir
+    environment:
+      - KMP_DUPLICATE_LIB_OK=True
